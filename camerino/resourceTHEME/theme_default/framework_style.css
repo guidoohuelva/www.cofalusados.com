@@ -1,0 +1,57 @@
+/*---- FRAMEWORK STYLE ----*/
+.framework_warning
+{
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	background:#dcf5ff;
+	border:none;
+	border-top:solid #dcf5ff;
+	border-bottom:solid #dcf5ff;
+	color:#5088a0;
+	text-align:center;
+}
+.framework_warning a
+{
+	color:#8fbed3;
+	font-size:11px;
+	text-align:center;
+}
+
+/*---- STYLE HELPERS ----*/
+.float_left
+{
+	float:left;
+}
+
+.float_right
+{
+	float:right;
+}
+
+.text_right
+{
+	text-align:right;
+}
+
+.text_left
+{
+	text-align:left;	
+}
+.text_bold
+{
+	font-weight:bold;
+}
+.text_center
+{
+	text-align:center;
+}
+.button
+{
+	cursor:pointer;
+}
+.clear
+{
+	clear:both;
+	height:1px;
+}

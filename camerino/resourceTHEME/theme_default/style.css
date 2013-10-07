@@ -1,0 +1,48 @@
+@import "framework_style.css";
+@import "style.header.css";
+@import "style.buttons.css";
+@import "style.forms.css";
+@import "style.common.css";
+@import "style.footer.css";
+
+/* ---- DEFAULT TEMPLATE ----*/
+body
+{
+	color:#505050;
+	background: #8E8E8E;
+	padding:0px;
+	margin:0px;
+
+	font-family: "Lucida Grande","Lucida Sans Unicode", Verdana, Helvetica, sans-serif;
+	font-size:12px;
+
+	text-align:center;
+}
+a
+{
+	color:#3F82DD;
+	text-decoration:none;
+	font-size:12px;
+}
+
+img
+{
+	border:none;
+}
+
+/*---- CAMERINO DEFAULT ----*/
+#camerino_content
+{
+	margin:0px auto;
+	padding:10px 0px;
+	width:1000px;
+	text-align:center;
+	position:relative;
+}
+
+
+#gallery_block { text-align: left; vertical-align: top; padding:10px 40px; }
+.gallery_item { margin:10px; width:180px; height:135px; padding:5px; background-color:#FFF; border:2px solid #DDD; cursor:pointer; display:inline-block; position:relative; }
+.gallery_item img { width:180px; height:135px; }
+.gallery_item a { bottom:5px; right:5px; padding:1px 7px; cursor:pointer; background-color:#be0000; color:#FFF; font-size:20px; position:absolute; text-shadow:1px 1px 1px #222; }
+.gallery_item a:hover { bottom:5px; right:5px; padding:1px 7px; cursor:pointer; background-color:#F00; color:#FFF; font-size:20px; position:absolute; text-shadow:1px 1px 1px #222;  }

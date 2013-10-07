@@ -1,0 +1,4 @@
+* html body {width:expression(document.documentElement.clientWidth < 1080 ? "1080px" : "auto");}
+#wrapper { min-height:100%; }
+* html #wrapper { height:100%; }
+

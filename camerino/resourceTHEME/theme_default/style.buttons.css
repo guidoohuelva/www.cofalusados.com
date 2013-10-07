@@ -1,0 +1,126 @@
+.button_space
+{
+}
+
+.link_button_default
+{
+	padding: 5px 0px;
+	height:12px;
+	display:inline-block;
+}
+.link_button_default:hover
+{
+	text-decoration:underline;
+	padding: 5px 0px;
+	height:12px;
+	display:inline-block;
+}
+
+
+.button_default
+{
+	color:#FFF;
+	background:none;
+	padding:5px 15px;
+	font-size:12px;
+	font-family:"Lucida Grande","Lucida Sans Unicode", Verdana, Helvetica, sans-serif;
+	border:none;
+	display:inline-block;
+}
+
+.button_gray
+{
+	background-color:#5F5F5F;
+}
+.button_gray:hover
+{
+	background-color:#707070;
+}
+.button_red
+{
+	background-color:#9E0028;
+}
+.button_orange
+{
+	background-color:#FF803E;
+}
+.button_orange:hover
+{
+	background-color:#FF8F35;
+}
+.button_red:hover
+{
+	background-color:#B4002E;
+}
+.button_blue
+{
+	background-color:#184C8C;
+}
+.button_blue:hover
+{
+	background-color:#1A5CAB;
+}
+.button_green
+{
+	background-color:#6f9300;
+}
+.button_green:hover
+{
+	background-color:#7fa900;
+}
+
+
+/*---- NAVIGATION ----*/
+.background_nav,
+.button_nav
+{
+	background-color:#D9D9D9;
+}
+.button_nav:hover
+{
+	background-color:#EBEBEB;
+}
+.button_nav_black
+{
+	background-color:#1C1C1C;
+}
+.button_nav_black:hover
+{
+	background-color:#303030;
+}
+.background_nav_yellow,
+.button_nav_yellow
+{
+	background-color:#FDFFC6;
+}
+.button_nav_yellow:hover
+{
+	background-color:#FEFFD8;
+}
+.background_nav_green,
+.button_nav_green
+{
+	background-color:#E4F4C5;
+}
+.button_nav_green:hover
+{
+	background-color:#CFE5A5;
+}
+.background_nav_orange,
+.button_nav_orange
+{
+	background-color:#FFD8AA;
+}
+.button_nav_orange:hover
+{
+	background-color:#FFBD70;
+}
+.background_nav_purple,
+.button_nav_purple
+{
+	background-color:#E6BCFF;
+}
+.button_nav_purple:hover
+{
+	background-color:#DCA1FF;
+}

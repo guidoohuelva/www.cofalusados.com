@@ -1,0 +1,1054 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body {
+  margin-top: 3px !important;
+}
+.hidden {
+  display: none;
+}
+.external-links-bar {
+  height: 3px;
+  max-height: 3px;
+  position: absolute;
+  background-color: #383838;
+  color: white;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:12px;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.ui-datepicker {
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:12px !important;
+}
+#external_link,#external_link:hover, #external_link:visited {
+	color: white;
+}
+.external-links-bar a, .external-links-bar a:hover {
+	color: white;
+	text-decoration: none;
+	text-shadow: 1px 2px 1px rgba(0,0,0,0.5);
+}
+.external-links-tab-container {
+	position: relative;
+	padding-left: 5px;
+	padding-right: 5px;
+	z-index: 998;
+	height: 20px;
+}
+.external-links-tab {
+	background-color: #383838;
+	border-radius: 0 0 5px 5px;
+	position: absolute;
+	width: 100%;
+	text-align: left;
+	bottom: 0;
+	left: 0;
+}
+.external-links-tab a {
+	padding-left: 10px;
+	margin-bottom: 1px;
+	display: block;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.external-links-tab a i {
+	margin-left: 6px;
+	background-image: url(../img/glyphicons-halflings-white.png);
+}
+
+.links-container {
+	position: relative;
+	z-index: 999;
+}
+
+.links-container .links-box {
+	background-color: #383838;
+	border-radius: 0 0 5px 0;
+	overflow: hidden;
+}
+
+ul.external-links {
+	margin: 0;
+	padding: 0;
+}
+ul.external-links li {
+	border-bottom: solid 1px #585858;
+	list-style: none;
+}
+ul.external-links li a {
+	padding: 7px 10px 0;
+	vertical-align: middle;
+	display: block;
+	background-color: rgb(56, 56, 56);
+	-webkit-transition: all .3s ease-in;
+		-moz-transition: all .3s ease-in;
+        -ms-transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+		transition: all .3s ease-in;
+}
+ul.external-links li a:hover,
+ul.external-links li a.active {
+	background-color: rgb(85, 85, 85);
+	-webkit-transition: all .2s ease-in;
+		-moz-transition: all .2s ease-in;
+        -ms-transition: all .2s ease-in;
+        -o-transition: all .2s ease-in;
+		transition: all .2s ease-in;
+}
+ul.external-links li a i {
+	position: relative;
+	top: -5px;
+	margin-right: 5px;
+}
+
+
+.icon-toyota {
+	background: #f14859 url(../img/icon-toyota.png) center no-repeat;
+	width: 23px;
+	height: 23px;
+	border: solid 1px black;
+}
+.icon-renault {
+	background: #fcb342 url(../img/icon-renault.png) center no-repeat;
+	width: 23px;
+	height: 23px;
+	border: solid 1px black;
+}
+.icon-chevrolet {
+	background: #eeebed url(../img/icon-chevrolet.png) center no-repeat;
+	width: 23px;
+	height: 23px;
+	border: solid 1px black;
+}
+.icon-express {
+	background: #231f20 url(../img/icon-express.png) center no-repeat;
+	width: 23px;
+	height: 23px;
+	border: solid 1px black;
+}
+.icon-usados {
+	background: #232323 url(../img/icon-usados.png) center no-repeat;
+	width: 23px;
+	height: 23px;
+	border: solid 1px black;
+}
+.icon-clock {
+	background: #232323 url(../img/icon-clock.png) center no-repeat;
+	width: 23px;
+	height: 23px;
+	border: solid 1px black;
+}
+
+#get_form_container {
+	position: relative;
+}
+
+#get_form_container .popover-title {
+	color: rgb(77, 77, 77);
+}
+
+#get_form_container .popover {
+	top: -210px !important;
+}
+#get_form_container.toyota .popover {
+	top: -95px !important;
+}
+
+#get_form_container .popover .arrow {
+	top: 190px !important;
+}
+#get_form_container.toyota .popover .arrow {
+	top: 75px !important;
+}
+#get_date {
+	margin: 0;
+}
+#get_date label {
+	color: gray;
+}
+#get_date p {
+	/*margin-bottom: 0;*/
+	margin: 0;
+}
+#get_date p.description {
+	font-size: .8em;
+	line-height: 1.1;
+	color: gray;
+	margin-bottom: .5em;
+}
+
+/*forms*/
+#get_form_container {
+  /* Allow for input prepend/append in search forms */
+
+}
+#get_form_container .hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+#get_form_container .input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#get_form_container form {
+  margin: 0 0 20px;
+}
+#get_form_container fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+#get_form_container legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: 40px;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+#get_form_container legend small {
+  font-size: 15px;
+  color: #999999;
+}
+#get_form_container label,
+#get_form_container input,
+#get_form_container button,
+#get_form_container select,
+#get_form_container textarea {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+#get_form_container input,
+#get_form_container button,
+#get_form_container select,
+#get_form_container textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#get_form_container label {
+  display: block;
+  margin-bottom: 5px;
+}
+#get_form_container select,
+#get_form_container textarea,
+#get_form_container input[type="text"],
+#get_form_container input[type="password"],
+#get_form_container input[type="datetime"],
+#get_form_container input[type="datetime-local"],
+#get_form_container input[type="date"],
+#get_form_container input[type="month"],
+#get_form_container input[type="time"],
+#get_form_container input[type="week"],
+#get_form_container input[type="number"],
+#get_form_container input[type="email"],
+#get_form_container input[type="url"],
+#get_form_container input[type="search"],
+#get_form_container input[type="tel"],
+#get_form_container input[type="color"],
+#get_form_container .uneditable-input {
+  display: inline-block;
+  height: 20px;
+  padding: 4px 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+#get_form_container input,
+#get_form_container textarea,
+#get_form_container .uneditable-input {
+  width: 206px;
+}
+#get_form_container textarea {
+  height: auto;
+}
+#get_form_container textarea,
+#get_form_container input[type="text"],
+#get_form_container input[type="password"],
+#get_form_container input[type="datetime"],
+#get_form_container input[type="datetime-local"],
+#get_form_container input[type="date"],
+#get_form_container input[type="month"],
+#get_form_container input[type="time"],
+#get_form_container input[type="week"],
+#get_form_container input[type="number"],
+#get_form_container input[type="email"],
+#get_form_container input[type="url"],
+#get_form_container input[type="search"],
+#get_form_container input[type="tel"],
+#get_form_container input[type="color"],
+#get_form_container .uneditable-input {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+#get_form_container textarea:focus,
+#get_form_container input[type="text"]:focus,
+#get_form_container input[type="password"]:focus,
+#get_form_container input[type="datetime"]:focus,
+#get_form_container input[type="datetime-local"]:focus,
+#get_form_container input[type="date"]:focus,
+#get_form_container input[type="month"]:focus,
+#get_form_container input[type="time"]:focus,
+#get_form_container input[type="week"]:focus,
+#get_form_container input[type="number"]:focus,
+#get_form_container input[type="email"]:focus,
+#get_form_container input[type="url"]:focus,
+#get_form_container input[type="search"]:focus,
+#get_form_container input[type="tel"]:focus,
+#get_form_container input[type="color"]:focus,
+#get_form_container .uneditable-input:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+#get_form_container input[type="radio"],
+#get_form_container input[type="checkbox"] {
+  margin: 4px 0 0;
+  *margin-top: 0;
+  /* IE7 */
+
+  margin-top: 1px \9;
+  /* IE8-9 */
+
+  line-height: normal;
+}
+#get_form_container input[type="file"],
+#get_form_container input[type="image"],
+#get_form_container input[type="submit"],
+#get_form_container input[type="reset"],
+#get_form_container input[type="button"],
+#get_form_container input[type="radio"],
+#get_form_container input[type="checkbox"] {
+  width: auto;
+}
+#get_form_container select,
+#get_form_container input[type="file"] {
+  height: 30px;
+  /* In IE7, the height of the select element cannot be changed by height, only font-size */
+
+  *margin-top: 4px;
+  /* For IE7, add top margin to align select with labels */
+
+  line-height: 30px;
+}
+#get_form_container select {
+  width: 220px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+}
+#get_form_container select[multiple],
+#get_form_container select[size] {
+  height: auto;
+}
+#get_form_container select:focus,
+#get_form_container input[type="file"]:focus,
+#get_form_container input[type="radio"]:focus,
+#get_form_container input[type="checkbox"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#get_form_container .uneditable-input,
+#get_form_container .uneditable-textarea {
+  color: #999999;
+  background-color: #fcfcfc;
+  border-color: #cccccc;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+  cursor: not-allowed;
+}
+#get_form_container .uneditable-input {
+  overflow: hidden;
+  white-space: nowrap;
+}
+#get_form_container .uneditable-textarea {
+  width: auto;
+  height: auto;
+}
+#get_form_container input:-moz-placeholder,
+#get_form_container textarea:-moz-placeholder {
+  color: #999999;
+}
+#get_form_container input:-ms-input-placeholder,
+#get_form_container textarea:-ms-input-placeholder {
+  color: #999999;
+}
+#get_form_container input::-webkit-input-placeholder,
+#get_form_container textarea::-webkit-input-placeholder {
+  color: #999999;
+}
+#get_form_container .radio,
+#get_form_container .checkbox {
+  min-height: 20px;
+  padding-left: 20px;
+}
+#get_form_container .radio input[type="radio"],
+#get_form_container .checkbox input[type="checkbox"] {
+  float: left;
+  margin-left: -20px;
+}
+#get_form_container .controls > .radio:first-child,
+#get_form_container .controls > .checkbox:first-child {
+  padding-top: 5px;
+}
+#get_form_container .radio.inline,
+#get_form_container .checkbox.inline {
+  display: inline-block;
+  padding-top: 5px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+#get_form_container .radio.inline + .radio.inline,
+#get_form_container .checkbox.inline + .checkbox.inline {
+  margin-left: 10px;
+}
+#get_form_container .input-mini {
+  width: 60px;
+}
+#get_form_container .input-small {
+  width: 90px;
+}
+#get_form_container .input-medium {
+  width: 150px;
+}
+#get_form_container .input-large {
+  width: 210px;
+}
+#get_form_container .input-xlarge {
+  width: 270px;
+}
+#get_form_container .input-xxlarge {
+  width: 530px;
+}
+#get_form_container input[class*="span"],
+#get_form_container select[class*="span"],
+#get_form_container textarea[class*="span"],
+#get_form_container .uneditable-input[class*="span"],
+#get_form_container .row-fluid input[class*="span"],
+#get_form_container .row-fluid select[class*="span"],
+#get_form_container .row-fluid textarea[class*="span"],
+#get_form_container .row-fluid .uneditable-input[class*="span"] {
+  float: none;
+  margin-left: 0;
+}
+#get_form_container .input-append input[class*="span"],
+#get_form_container .input-append .uneditable-input[class*="span"],
+#get_form_container .input-prepend input[class*="span"],
+#get_form_container .input-prepend .uneditable-input[class*="span"],
+#get_form_container .row-fluid input[class*="span"],
+#get_form_container .row-fluid select[class*="span"],
+#get_form_container .row-fluid textarea[class*="span"],
+#get_form_container .row-fluid .uneditable-input[class*="span"],
+#get_form_container .row-fluid .input-prepend [class*="span"],
+#get_form_container .row-fluid .input-append [class*="span"] {
+  display: inline-block;
+}
+#get_form_container input,
+#get_form_container textarea,
+#get_form_container .uneditable-input {
+  margin-left: 0;
+}
+#get_form_container .controls-row [class*="span"] + [class*="span"] {
+  margin-left: 20px;
+}
+#get_form_container input.span12,
+#get_form_container textarea.span12,
+#get_form_container .uneditable-input.span12 {
+  width: 926px;
+}
+#get_form_container input.span11,
+#get_form_container textarea.span11,
+#get_form_container .uneditable-input.span11 {
+  width: 846px;
+}
+#get_form_container input.span10,
+#get_form_container textarea.span10,
+#get_form_container .uneditable-input.span10 {
+  width: 766px;
+}
+#get_form_container input.span9,
+#get_form_container textarea.span9,
+#get_form_container .uneditable-input.span9 {
+  width: 686px;
+}
+#get_form_container input.span8,
+#get_form_container textarea.span8,
+#get_form_container .uneditable-input.span8 {
+  width: 606px;
+}
+#get_form_container input.span7,
+#get_form_container textarea.span7,
+#get_form_container .uneditable-input.span7 {
+  width: 526px;
+}
+#get_form_container input.span6,
+#get_form_container textarea.span6,
+#get_form_container .uneditable-input.span6 {
+  width: 446px;
+}
+#get_form_container input.span5,
+#get_form_container textarea.span5,
+#get_form_container .uneditable-input.span5 {
+  width: 366px;
+}
+#get_form_container input.span4,
+#get_form_container textarea.span4,
+#get_form_container .uneditable-input.span4 {
+  width: 286px;
+}
+#get_form_container input.span3,
+#get_form_container textarea.span3,
+#get_form_container .uneditable-input.span3 {
+  width: 206px;
+}
+#get_form_container input.span2,
+#get_form_container textarea.span2,
+#get_form_container .uneditable-input.span2 {
+  width: 126px;
+}
+#get_form_container input.span1,
+#get_form_container textarea.span1,
+#get_form_container .uneditable-input.span1 {
+  width: 46px;
+}
+#get_form_container .controls-row {
+  *zoom: 1;
+}
+#get_form_container .controls-row:before,
+#get_form_container .controls-row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#get_form_container .controls-row:after {
+  clear: both;
+}
+#get_form_container .controls-row [class*="span"],
+#get_form_container .row-fluid .controls-row [class*="span"] {
+  float: left;
+}
+#get_form_container .controls-row .checkbox[class*="span"],
+#get_form_container .controls-row .radio[class*="span"] {
+  padding-top: 5px;
+}
+#get_form_container input[disabled],
+#get_form_container select[disabled],
+#get_form_container textarea[disabled],
+#get_form_container input[readonly],
+#get_form_container select[readonly],
+#get_form_container textarea[readonly] {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+#get_form_container input[type="radio"][disabled],
+#get_form_container input[type="checkbox"][disabled],
+#get_form_container input[type="radio"][readonly],
+#get_form_container input[type="checkbox"][readonly] {
+  background-color: transparent;
+}
+#get_form_container .control-group.warning .control-label,
+#get_form_container .control-group.warning .help-block,
+#get_form_container .control-group.warning .help-inline {
+  color: #c09853;
+}
+#get_form_container .control-group.warning .checkbox,
+#get_form_container .control-group.warning .radio,
+#get_form_container .control-group.warning input,
+#get_form_container .control-group.warning select,
+#get_form_container .control-group.warning textarea {
+  color: #c09853;
+}
+#get_form_container .control-group.warning input,
+#get_form_container .control-group.warning select,
+#get_form_container .control-group.warning textarea {
+  border-color: #c09853;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#get_form_container .control-group.warning input:focus,
+#get_form_container .control-group.warning select:focus,
+#get_form_container .control-group.warning textarea:focus {
+  border-color: #a47e3c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
+}
+#get_form_container .control-group.warning .input-prepend .add-on,
+#get_form_container .control-group.warning .input-append .add-on {
+  color: #c09853;
+  background-color: #fcf8e3;
+  border-color: #c09853;
+}
+#get_form_container .control-group.error .control-label,
+#get_form_container .control-group.error .help-block,
+#get_form_container .control-group.error .help-inline {
+  color: #b94a48;
+}
+#get_form_container .control-group.error .checkbox,
+#get_form_container .control-group.error .radio,
+#get_form_container .control-group.error input,
+#get_form_container .control-group.error select,
+#get_form_container .control-group.error textarea {
+  color: #b94a48;
+}
+#get_form_container .control-group.error input,
+#get_form_container .control-group.error select,
+#get_form_container .control-group.error textarea {
+  border-color: #b94a48;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#get_form_container .control-group.error input:focus,
+#get_form_container .control-group.error select:focus,
+#get_form_container .control-group.error textarea:focus {
+  border-color: #953b39;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+}
+#get_form_container .control-group.error .input-prepend .add-on,
+#get_form_container .control-group.error .input-append .add-on {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #b94a48;
+}
+#get_form_container .control-group.success .control-label,
+#get_form_container .control-group.success .help-block,
+#get_form_container .control-group.success .help-inline {
+  color: #468847;
+}
+#get_form_container .control-group.success .checkbox,
+#get_form_container .control-group.success .radio,
+#get_form_container .control-group.success input,
+#get_form_container .control-group.success select,
+#get_form_container .control-group.success textarea {
+  color: #468847;
+}
+#get_form_container .control-group.success input,
+#get_form_container .control-group.success select,
+#get_form_container .control-group.success textarea {
+  border-color: #468847;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#get_form_container .control-group.success input:focus,
+#get_form_container .control-group.success select:focus,
+#get_form_container .control-group.success textarea:focus {
+  border-color: #356635;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
+}
+#get_form_container .control-group.success .input-prepend .add-on,
+#get_form_container .control-group.success .input-append .add-on {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #468847;
+}
+#get_form_container .control-group.info .control-label,
+#get_form_container .control-group.info .help-block,
+#get_form_container .control-group.info .help-inline {
+  color: #3a87ad;
+}
+#get_form_container .control-group.info .checkbox,
+#get_form_container .control-group.info .radio,
+#get_form_container .control-group.info input,
+#get_form_container .control-group.info select,
+#get_form_container .control-group.info textarea {
+  color: #3a87ad;
+}
+#get_form_container .control-group.info input,
+#get_form_container .control-group.info select,
+#get_form_container .control-group.info textarea {
+  border-color: #3a87ad;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#get_form_container .control-group.info input:focus,
+#get_form_container .control-group.info select:focus,
+#get_form_container .control-group.info textarea:focus {
+  border-color: #2d6987;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7ab5d3;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7ab5d3;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7ab5d3;
+}
+#get_form_container .control-group.info .input-prepend .add-on,
+#get_form_container .control-group.info .input-append .add-on {
+  color: #3a87ad;
+  background-color: #d9edf7;
+  border-color: #3a87ad;
+}
+#get_form_container input:focus:invalid,
+#get_form_container textarea:focus:invalid,
+#get_form_container select:focus:invalid {
+  color: #b94a48;
+  border-color: #ee5f5b;
+}
+#get_form_container input:focus:invalid:focus,
+#get_form_container textarea:focus:invalid:focus,
+#get_form_container select:focus:invalid:focus {
+  border-color: #e9322d;
+  -webkit-box-shadow: 0 0 6px #f8b9b7;
+  -moz-box-shadow: 0 0 6px #f8b9b7;
+  box-shadow: 0 0 6px #f8b9b7;
+}
+#get_form_container .form-actions {
+  padding: 19px 20px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+  *zoom: 1;
+}
+#get_form_container .form-actions:before,
+#get_form_container .form-actions:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#get_form_container .form-actions:after {
+  clear: both;
+}
+#get_form_container .help-block,
+#get_form_container .help-inline {
+  color: #595959;
+}
+#get_form_container .help-block {
+  display: block;
+  margin-bottom: 10px;
+}
+#get_form_container .help-inline {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+
+  *zoom: 1;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+#get_form_container .input-append,
+#get_form_container .input-prepend {
+  display: inline-block;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  font-size: 0;
+  white-space: nowrap;
+}
+#get_form_container .input-append input,
+#get_form_container .input-prepend input,
+#get_form_container .input-append select,
+#get_form_container .input-prepend select,
+#get_form_container .input-append .uneditable-input,
+#get_form_container .input-prepend .uneditable-input,
+#get_form_container .input-append .dropdown-menu,
+#get_form_container .input-prepend .dropdown-menu,
+#get_form_container .input-append .popover,
+#get_form_container .input-prepend .popover {
+  font-size: 14px;
+}
+#get_form_container .input-append input,
+#get_form_container .input-prepend input,
+#get_form_container .input-append select,
+#get_form_container .input-prepend select,
+#get_form_container .input-append .uneditable-input,
+#get_form_container .input-prepend .uneditable-input {
+  position: relative;
+  margin-bottom: 0;
+  *margin-left: 0;
+  vertical-align: top;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+#get_form_container .input-append input:focus,
+#get_form_container .input-prepend input:focus,
+#get_form_container .input-append select:focus,
+#get_form_container .input-prepend select:focus,
+#get_form_container .input-append .uneditable-input:focus,
+#get_form_container .input-prepend .uneditable-input:focus {
+  z-index: 2;
+}
+#get_form_container .input-append .add-on,
+#get_form_container .input-prepend .add-on {
+  display: inline-block;
+  width: auto;
+  height: 20px;
+  min-width: 16px;
+  padding: 4px 5px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: center;
+  text-shadow: 0 1px 0 #ffffff;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+}
+#get_form_container .input-append .add-on,
+#get_form_container .input-prepend .add-on,
+#get_form_container .input-append .btn,
+#get_form_container .input-prepend .btn,
+#get_form_container .input-append .btn-group > .dropdown-toggle,
+#get_form_container .input-prepend .btn-group > .dropdown-toggle {
+  vertical-align: top;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#get_form_container .input-append .active,
+#get_form_container .input-prepend .active {
+  background-color: #a9dba9;
+  border-color: #46a546;
+}
+#get_form_container .input-prepend .add-on,
+#get_form_container .input-prepend .btn {
+  margin-right: -1px;
+}
+#get_form_container .input-prepend .add-on:first-child,
+#get_form_container .input-prepend .btn:first-child {
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+#get_form_container .input-append input,
+#get_form_container .input-append select,
+#get_form_container .input-append .uneditable-input {
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+#get_form_container .input-append input + .btn-group .btn:last-child,
+#get_form_container .input-append select + .btn-group .btn:last-child,
+#get_form_container .input-append .uneditable-input + .btn-group .btn:last-child {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+#get_form_container .input-append .add-on,
+#get_form_container .input-append .btn,
+#get_form_container .input-append .btn-group {
+  margin-left: -1px;
+}
+#get_form_container .input-append .add-on:last-child,
+#get_form_container .input-append .btn:last-child,
+#get_form_container .input-append .btn-group:last-child > .dropdown-toggle {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+#get_form_container .input-prepend.input-append input,
+#get_form_container .input-prepend.input-append select,
+#get_form_container .input-prepend.input-append .uneditable-input {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#get_form_container .input-prepend.input-append input + .btn-group .btn,
+#get_form_container .input-prepend.input-append select + .btn-group .btn,
+#get_form_container .input-prepend.input-append .uneditable-input + .btn-group .btn {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+#get_form_container .input-prepend.input-append .add-on:first-child,
+#get_form_container .input-prepend.input-append .btn:first-child {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+#get_form_container .input-prepend.input-append .add-on:last-child,
+#get_form_container .input-prepend.input-append .btn:last-child {
+  margin-left: -1px;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+#get_form_container .input-prepend.input-append .btn-group:first-child {
+  margin-left: 0;
+}
+#get_form_container input.search-query {
+  padding-right: 14px;
+  padding-right: 4px \9;
+  padding-left: 14px;
+  padding-left: 4px \9;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+  margin-bottom: 0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+#get_form_container .form-search .input-append .search-query,
+#get_form_container .form-search .input-prepend .search-query {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#get_form_container .form-search .input-append .search-query {
+  -webkit-border-radius: 14px 0 0 14px;
+  -moz-border-radius: 14px 0 0 14px;
+  border-radius: 14px 0 0 14px;
+}
+#get_form_container .form-search .input-append .btn {
+  -webkit-border-radius: 0 14px 14px 0;
+  -moz-border-radius: 0 14px 14px 0;
+  border-radius: 0 14px 14px 0;
+}
+#get_form_container .form-search .input-prepend .search-query {
+  -webkit-border-radius: 0 14px 14px 0;
+  -moz-border-radius: 0 14px 14px 0;
+  border-radius: 0 14px 14px 0;
+}
+#get_form_container .form-search .input-prepend .btn {
+  -webkit-border-radius: 14px 0 0 14px;
+  -moz-border-radius: 14px 0 0 14px;
+  border-radius: 14px 0 0 14px;
+}
+#get_form_container .form-search input,
+#get_form_container .form-inline input,
+#get_form_container .form-horizontal input,
+#get_form_container .form-search textarea,
+#get_form_container .form-inline textarea,
+#get_form_container .form-horizontal textarea,
+#get_form_container .form-search select,
+#get_form_container .form-inline select,
+#get_form_container .form-horizontal select,
+#get_form_container .form-search .help-inline,
+#get_form_container .form-inline .help-inline,
+#get_form_container .form-horizontal .help-inline,
+#get_form_container .form-search .uneditable-input,
+#get_form_container .form-inline .uneditable-input,
+#get_form_container .form-horizontal .uneditable-input,
+#get_form_container .form-search .input-prepend,
+#get_form_container .form-inline .input-prepend,
+#get_form_container .form-horizontal .input-prepend,
+#get_form_container .form-search .input-append,
+#get_form_container .form-inline .input-append,
+#get_form_container .form-horizontal .input-append {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+
+  *zoom: 1;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+#get_form_container .form-search .hide,
+#get_form_container .form-inline .hide,
+#get_form_container .form-horizontal .hide {
+  display: none;
+}
+#get_form_container .form-search label,
+#get_form_container .form-inline label,
+#get_form_container .form-search .btn-group,
+#get_form_container .form-inline .btn-group {
+  display: inline-block;
+}
+#get_form_container .form-search .input-append,
+#get_form_container .form-inline .input-append,
+#get_form_container .form-search .input-prepend,
+#get_form_container .form-inline .input-prepend {
+  margin-bottom: 0;
+}
+#get_form_container .form-search .radio,
+#get_form_container .form-search .checkbox,
+#get_form_container .form-inline .radio,
+#get_form_container .form-inline .checkbox {
+  padding-left: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+#get_form_container .form-search .radio input[type="radio"],
+#get_form_container .form-search .checkbox input[type="checkbox"],
+#get_form_container .form-inline .radio input[type="radio"],
+#get_form_container .form-inline .checkbox input[type="checkbox"] {
+  float: left;
+  margin-right: 3px;
+  margin-left: 0;
+}
+#get_form_container .control-group {
+  margin-bottom: 10px;
+}
+#get_form_container legend + .control-group {
+  margin-top: 20px;
+  -webkit-margin-top-collapse: separate;
+}
+#get_form_container .form-horizontal .control-group {
+  margin-bottom: 20px;
+  *zoom: 1;
+}
+#get_form_container .form-horizontal .control-group:before,
+#get_form_container .form-horizontal .control-group:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#get_form_container .form-horizontal .control-group:after {
+  clear: both;
+}
+#get_form_container .form-horizontal .control-label {
+  float: left;
+  width: 160px;
+  padding-top: 5px;
+  text-align: right;
+}
+#get_form_container .form-horizontal .controls {
+  *display: inline-block;
+  *padding-left: 20px;
+  margin-left: 180px;
+  *margin-left: 0;
+}
+#get_form_container .form-horizontal .controls:first-child {
+  *padding-left: 180px;
+}
+#get_form_container .form-horizontal .help-block {
+  margin-bottom: 0;
+}
+#get_form_container .form-horizontal input + .help-block,
+#get_form_container .form-horizontal select + .help-block,
+#get_form_container .form-horizontal textarea + .help-block,
+#get_form_container .form-horizontal .uneditable-input + .help-block,
+#get_form_container .form-horizontal .input-prepend + .help-block,
+#get_form_container .form-horizontal .input-append + .help-block {
+  margin-top: 10px;
+}
+#get_form_container .form-horizontal .form-actions {
+  padding-left: 180px;
+}

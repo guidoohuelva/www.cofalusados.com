@@ -1,0 +1,90 @@
+/*---- FORMS ----*/
+.common_login_form_layout
+{
+	margin:0px auto;
+	padding:30px 0px;
+	width:360px;
+	position:relative;
+}
+
+.common_login_form_layout .form_layout_input
+{
+	padding:10px 0px;
+	height:12px;
+	position:relative;
+	display:block;
+}
+.common_login_form_layout .form_layout_input label
+{
+	width:135px;
+	padding-right:10px;
+	text-align:right;
+	display:inline-block;
+}
+.common_login_form_layout .form_layout_input input
+{
+	width:200px;
+	text-align:left;
+	display:inline-block;
+}
+.common_login_form_layout .form_layout_submit
+{
+	padding:10px 0px;
+	padding-right:10px;
+	height:12px;
+	position:relative;
+	text-align:right;
+	display:block;
+}
+
+.common_short_form
+{
+	margin:0px auto;
+	padding:20px 0px;
+	width:500px;
+	position:relative;	
+}
+.short_form_input
+{
+	min-height:30px;
+	position:relative;
+}
+.common_short_form .short_form_input label
+{
+	top:4px;
+	width:135px;
+	text-align:right;
+	display:inline-block;	
+	position:absolute;
+}
+.common_short_form .short_form_input textarea,
+.common_short_form .short_form_input input
+{
+	left:140px;
+	margin:0px;
+	padding:3px;
+	width:200px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	display:inline-block;
+	border:1px solid #DDD;
+	position:absolute;	
+}
+.common_short_form .textarea
+{
+	height:55px;
+}
+
+.short_form_submit
+{
+	padding:10px 0px;
+	padding-right:150px;
+	height:12px;
+	position:relative;
+	text-align:right;
+	display:block;
+	height:30px;
+	position:relative;
+		
+}

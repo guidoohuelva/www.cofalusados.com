@@ -1,0 +1,4 @@
+[19-Jul-2012 10:27:04] PHP Fatal error:  Class 'ASTEG_database' not found in /home/cofalusa/public_html/resourceTHEME/theme_default/index.php on line 2
+[30-Jul-2013 16:37:01] PHP Fatal error:  Class 'ASTEG_resource' not found in /home/cofalusa/public_html/resourceTHEME/theme_default/theme.php on line 5
+[30-Jul-2013 16:41:17] PHP Fatal error:  Class 'ASTEG_resource' not found in /home/cofalusa/public_html/resourceTHEME/theme_default/theme.php on line 5
+[30-Jul-2013 21:26:51] PHP Fatal error:  Class 'ASTEG_database' not found in /home/cofalusa/public_html/resourceTHEME/theme_default/index.php on line 2

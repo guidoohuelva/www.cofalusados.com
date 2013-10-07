@@ -1,0 +1,21 @@
+/*---- FRAMEWORK STYLE ----*/
+.framework_warning
+{
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	background:#ffe548;
+	border:none;
+	border-top:solid #ffc647;
+	border-bottom:solid #ffc647;
+	color:#313131;
+	text-align:center;
+}
+/*---- STYLE HELPERS ----*/
+.float_left { float:left; }
+.float_right { 	float:right; }
+.text_right { text-align:right; }
+.text_left { 	text-align:left; }
+.text_justified { 	text-align:justify; }
+.text_center { text-align:center; }
+.clear { clear:both; height:0px; }

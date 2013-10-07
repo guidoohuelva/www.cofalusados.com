@@ -1,0 +1,192 @@
+[28-May-2012 20:12:38] PHP Warning:  include_once(./resourcePLUGINS/SimpleImage.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/plugins/ASTEGplugin.usedcars.php on line 272
+[28-May-2012 20:12:38] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening './resourcePLUGINS/SimpleImage.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/plugins/ASTEGplugin.usedcars.php on line 272
+[28-May-2012 20:12:38] PHP Fatal error:  Class 'SimpleImage' not found in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/plugins/ASTEGplugin.usedcars.php on line 273
+[30-May-2012 10:25:12] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-05-01', '2012-05-30')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[31-May-2012 21:10:50] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-05-01', '2012-05-31')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[04-Jun-2012 13:33:17] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-04')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[04-Jun-2012 15:24:05] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-04')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[05-Jun-2012 17:00:18] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-05')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[06-Jun-2012 10:29:57] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-06')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[06-Jun-2012 19:52:00] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-06')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[07-Jun-2012 13:13:57] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-07')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[11-Jun-2012 18:02:03] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-11')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[12-Jun-2012 23:09:28] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-12')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[13-Jun-2012 10:03:35] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-13')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[13-Jun-2012 10:04:05] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-13')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[13-Jun-2012 11:14:42] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-13')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[13-Jun-2012 11:20:47] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-13')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[13-Jun-2012 11:32:58] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-13')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[13-Jun-2012 13:07:19] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-13')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[13-Jun-2012 21:53:38] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-13')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[14-Jun-2012 13:20:25] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-06-01', '2012-06-14')
+#1 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/capitan/subdomains in /home/capitan/subdomains/websites.asteglabs/www.cofalusados.com/resourcePLUGINS/gapi.class.php on line 218
+[02-Jul-2012 12:02:41] PHP Fatal error:  Call to undefined function  adonewconnection() in /home/cofalusa/public_html/temporal/resourceCONFIGURATION/ASTEGconnect.php on line 8
+[02-Jul-2012 12:03:34] PHP Fatal error:  Call to undefined function  adonewconnection() in /home/cofalusa/public_html/temporal/resourceCONFIGURATION/ASTEGconnect.php on line 8
+[02-Jul-2012 18:27:43] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/cofalusa/public_html/temporal/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/cofalusa/public_html/temporal/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-07-01', '2012-07-02')
+#1 /home/cofalusa/public_html/temporal/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/cofalusa/public_html/temporal/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/cofalusa/public_html/temporal/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/cofalusa/public_html/temporal/resourceXAJAX/xajax_core/xajax.inc.php(513): xajaxPluginManager->processRequest()
+#5 /home/cofalusa/public_html/temporal/camerin in /home/cofalusa/public_html/temporal/resourcePLUGINS/gapi.class.php on line 218
+[02-Jul-2012 18:27:43] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'capitan_LABS'@'localhost' (using password: YES) in /home/cofalusa/public_html/temporal/resourceADODB/drivers/adodb-mysql.inc.php on line 364
+[02-Jul-2012 18:27:43] PHP Fatal error:  Uncaught exception 'ADODB_Exception' with message 'mysql error: [0: Connection error to server 'localhost' with user 'capitan_LABS'] in CONNECT(localhost, 'capitan_LABS', '****', capitan_LABS_USADOS)
+' in /home/cofalusa/public_html/temporal/resourceADODB/adodb-exceptions.inc.php:78
+Stack trace:
+#0 /home/cofalusa/public_html/temporal/resourceADODB/adodb.inc.php(535): adodb_throw('mysql', 'CONNECT', 0, 'Connection erro...', 'localhost', 'capitan_LABS_US...', Object(ADODB_mysql))
+#1 /home/cofalusa/public_html/temporal/resourceASTEG/ASTEGfunctions.userdatabase.php(14): ADOConnection->Connect('localhost', 'capitan_LABS', 'database321', 'capitan_LABS_US...')
+#2 /home/cofalusa/public_html/temporal/camerino/resourceTHEME/theme_default/plugins/ASTEGplugin.posts.php(103): ASTEG_userdatabase->__construct()
+#3 /home/cofalusa/public_html/temporal/camerino/resourceTHEME/theme_default/plugins/ASTEGplugin.posts.php(91): ASTEGplugin_posts->private_plugin_display()
+#4 /home/cofalusa/public_html/temporal/camerino/resourceTHEME/ in /home/cofalusa/public_html/temporal/resourceADODB/adodb-exceptions.inc.php on line 78
+[02-Jul-2012 18:27:49] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'capitan_LABS'@'localhost' (using password: YES) in /home/cofalusa/public_html/temporal/resourceADODB/drivers/adodb-mysql.inc.php on line 364
+[02-Jul-2012 18:27:49] PHP Fatal error:  Uncaught exception 'ADODB_Exception' with message 'mysql error: [0: Connection error to server 'localhost' with user 'capitan_LABS'] in CONNECT(localhost, 'capitan_LABS', '****', capitan_LABS_USADOS)
+' in /home/cofalusa/public_html/temporal/resourceADODB/adodb-exceptions.inc.php:78
+Stack trace:
+#0 /home/cofalusa/public_html/temporal/resourceADODB/adodb.inc.php(535): adodb_throw('mysql', 'CONNECT', 0, 'Connection erro...', 'localhost', 'capitan_LABS_US...', Object(ADODB_mysql))
+#1 /home/cofalusa/public_html/temporal/resourceASTEG/ASTEGfunctions.userdatabase.php(14): ADOConnection->Connect('localhost', 'capitan_LABS', 'database321', 'capitan_LABS_US...')
+#2 /home/cofalusa/public_html/temporal/camerino/resourceTHEME/theme_default/plugins/ASTEGplugin.usedcars.php(140): ASTEG_userdatabase->__construct()
+#3 /home/cofalusa/public_html/temporal/camerino/resourceTHEME/theme_default/plugins/ASTEGplugin.usedcars.php(128): ASTEGplugin_usedcars->private_plugin_display()
+#4 /home/cofalusa/public_html/temporal/camerino/reso in /home/cofalusa/public_html/temporal/resourceADODB/adodb-exceptions.inc.php on line 78
+[02-Jul-2012 18:27:56] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'capitan_LABS'@'localhost' (using password: YES) in /home/cofalusa/public_html/temporal/resourceADODB/drivers/adodb-mysql.inc.php on line 364
+[02-Jul-2012 18:27:56] PHP Fatal error:  Uncaught exception 'ADODB_Exception' with message 'mysql error: [0: Connection error to server 'localhost' with user 'capitan_LABS'] in CONNECT(localhost, 'capitan_LABS', '****', capitan_LABS_USADOS)
+' in /home/cofalusa/public_html/temporal/resourceADODB/adodb-exceptions.inc.php:78
+Stack trace:
+#0 /home/cofalusa/public_html/temporal/resourceADODB/adodb.inc.php(535): adodb_throw('mysql', 'CONNECT', 0, 'Connection erro...', 'localhost', 'capitan_LABS_US...', Object(ADODB_mysql))
+#1 /home/cofalusa/public_html/temporal/resourceASTEG/ASTEGfunctions.userdatabase.php(14): ADOConnection->Connect('localhost', 'capitan_LABS', 'database321', 'capitan_LABS_US...')
+#2 /home/cofalusa/public_html/temporal/camerino/resourceTHEME/theme_default/plugins/ASTEGplugin.categories.php(90): ASTEG_userdatabase->__construct()
+#3 /home/cofalusa/public_html/temporal/camerino/resourceTHEME/theme_default/plugins/ASTEGplugin.categories.php(78): ASTEGplugin_categories->private_plugin_display()
+#4 /home/cofalusa/public_html/temporal/camerino/ in /home/cofalusa/public_html/temporal/resourceADODB/adodb-exceptions.inc.php on line 78
+[02-Jul-2012 18:27:58] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'capitan_LABS'@'localhost' (using password: YES) in /home/cofalusa/public_html/temporal/resourceADODB/drivers/adodb-mysql.inc.php on line 364
+[02-Jul-2012 18:27:58] PHP Fatal error:  Uncaught exception 'ADODB_Exception' with message 'mysql error: [0: Connection error to server 'localhost' with user 'capitan_LABS'] in CONNECT(localhost, 'capitan_LABS', '****', capitan_LABS_USADOS)
+' in /home/cofalusa/public_html/temporal/resourceADODB/adodb-exceptions.inc.php:78
+Stack trace:
+#0 /home/cofalusa/public_html/temporal/resourceADODB/adodb.inc.php(535): adodb_throw('mysql', 'CONNECT', 0, 'Connection erro...', 'localhost', 'capitan_LABS_US...', Object(ADODB_mysql))
+#1 /home/cofalusa/public_html/temporal/resourceASTEG/ASTEGfunctions.userdatabase.php(14): ADOConnection->Connect('localhost', 'capitan_LABS', 'database321', 'capitan_LABS_US...')
+#2 /home/cofalusa/public_html/temporal/camerino/resourceTHEME/theme_default/plugins/ASTEGplugin.selectedcars.php(58): ASTEG_userdatabase->__construct()
+#3 /home/cofalusa/public_html/temporal/camerino/resourceTHEME/theme_default/plugins/ASTEGplugin.selectedcars.php(46): ASTEGplugin_selectedcars->private_plugin_display()
+#4 /home/cofalusa/public_html/temporal/cam in /home/cofalusa/public_html/temporal/resourceADODB/adodb-exceptions.inc.php on line 78
+[02-Jul-2012 18:28:09] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'capitan_LABS'@'localhost' (using password: YES) in /home/cofalusa/public_html/temporal/resourceADODB/drivers/adodb-mysql.inc.php on line 364
+[02-Jul-2012 18:28:09] PHP Fatal error:  Uncaught exception 'ADODB_Exception' with message 'mysql error: [0: Connection error to server 'localhost' with user 'capitan_LABS'] in CONNECT(localhost, 'capitan_LABS', '****', capitan_LABS_USADOS)
+' in /home/cofalusa/public_html/temporal/resourceADODB/adodb-exceptions.inc.php:78
+Stack trace:
+#0 /home/cofalusa/public_html/temporal/resourceADODB/adodb.inc.php(535): adodb_throw('mysql', 'CONNECT', 0, 'Connection erro...', 'localhost', 'capitan_LABS_US...', Object(ADODB_mysql))
+#1 /home/cofalusa/public_html/temporal/resourceASTEG/ASTEGfunctions.userdatabase.php(14): ADOConnection->Connect('localhost', 'capitan_LABS', 'database321', 'capitan_LABS_US...')
+#2 /home/cofalusa/public_html/temporal/camerino/resourceTHEME/theme_default/plugins/ASTEGplugin.usedcars.php(140): ASTEG_userdatabase->__construct()
+#3 /home/cofalusa/public_html/temporal/camerino/resourceTHEME/theme_default/plugins/ASTEGplugin.usedcars.php(128): ASTEGplugin_usedcars->private_plugin_display()
+#4 /home/cofalusa/public_html/temporal/camerino/reso in /home/cofalusa/public_html/temporal/resourceADODB/adodb-exceptions.inc.php on line 78
+[02-Jul-2012 18:34:49] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "User does not have permission to access profile 0."' in /home/cofalusa/public_html/temporal/resourcePLUGINS/gapi.class.php:218
+Stack trace:
+#0 /home/cofalusa/public_html/temporal/camerino/resourceTHEME/theme_default/javascript.php(34): gapi->requestReportData('0', Array, Array, NULL, NULL, '2012-07-01', '2012-07-02')
+#1 /home/cofalusa/public_html/temporal/resourceXAJAX/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(230): camerino_googleanalytics()
+#2 /home/cofalusa/public_html/temporal/resourceXAJAX/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(221): xajaxUserFunction->call('camerino_google...', Array)
+#3 /home/cofalusa/public_html/temporal/resourceXAJAX/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest(Array)
+#4 /home/cofalusa/public_html/temporal/resourceXAJAX/xajax_core/xajax.inc.php(513): xajaxPluginManager->processRequest()
+#5 /home/cofalusa/public_html/temporal/camerin in /home/cofalusa/public_html/temporal/resourcePLUGINS/gapi.class.php on line 218

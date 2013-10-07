@@ -1,0 +1,32 @@
+/*---- FRAMEWORK STYLE ----*/
+.framework_warning
+{
+	top:0px;
+	left:0px;
+	width:100%;
+	padding-top:15px;
+	padding-bottom:18px;
+	border:none;
+	color:#222;
+	text-align:center;
+	font-size:14px;
+	position:relative;
+	background:url(./images/bg_alert.png) repeat-x;
+	z-index:1000;
+	text-shadow:1px 1px 1px #FFF;
+}
+.framework_warning a
+{
+	font-size:11px;
+	color:#555;
+	text-shadow:1px 1px 1px #FFF;
+	font-weight:normal;
+}
+/*---- STYLE HELPERS ----*/
+.float_left { float:left; }
+.float_right { 	float:right; }
+.text_right { text-align:right; }
+.text_left { 	text-align:left; }
+.text_justified { 	text-align:justify; }
+.text_center { text-align:center; }
+.clear { clear:both; height:0px;  }
