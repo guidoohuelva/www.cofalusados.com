@@ -37,12 +37,12 @@
 	
 //---- CALCULATOR
 	$form_percentage		= (!isset($_GET[FORM_PERCENTAGE]))?20:$_GET[FORM_PERCENTAGE];
-	$form_month				= (!isset($_GET[FORM_MONTH]))?12:$_GET[FORM_MONTH];
+	$form_month				= (!isset($_GET[FORM_MONTH]))?60:$_GET[FORM_MONTH];
 	$display_enganche		= number_format(($current_car[0][field2]*($form_percentage/100)),2,".",",");
 
 	
 	$settings_interest			= 12.6; //---- l
-	$settings_monthlyinterest	= ($settings_interest/12)/100; //---- i
+	$settings_monthlyinterest	= ($settings_interest/60)/100; //---- i
 	$settings_tofinance			= $current_car[0][field2]-($current_car[0][field2]*($form_percentage/100)); //---- C
 	$settings_numberofmonths	= $form_month; //---- n
 	
@@ -126,6 +126,7 @@
 							<ul class="deta-ul">
 								<li> <strong>Marca</strong> <span><?php echo $brand_array[$current_car[0][field3]]; ?></span></li>
 								<li> <strong>Modelo</strong> <span><?php echo $current_car[0][field4]; ?></span></li>
+								<li> <strong>Motor</strong> <span><?php echo $brand_array[$current_car[0][field19]]; ?></span></li>
 								<li> <strong>Kilometraje</strong> <span><?php echo number_format($current_car[0][field5],0,".",","); ?></span></li>
 								<li> <strong>Combustible</strong> <span><?php echo $combustible_array[$current_car[0][field6]][field1]; ?></span></li> 
 								<li> <strong>Transmisi&oacute;n</strong> <span><?php echo $transmision_array[$current_car[0][field7]][field1]; ?></span></li> 
