@@ -126,7 +126,7 @@
 							<ul class="deta-ul">
 								<li> <strong>Marca</strong> <span><?php echo $brand_array[$current_car[0][field3]]; ?></span></li>
 								<li> <strong>Modelo</strong> <span><?php echo $current_car[0][field4]; ?></span></li>
-								<li> <strong>Motor</strong> <span><?php echo $brand_array[$current_car[0][field19]]; ?></span></li>
+								<li> <strong>Motor</strong> <span><?php echo $current_car[0][field19]; ?></span></li>
 								<li> <strong>Kilometraje</strong> <span><?php echo number_format($current_car[0][field5],0,".",","); ?></span></li>
 								<li> <strong>Combustible</strong> <span><?php echo $combustible_array[$current_car[0][field6]][field1]; ?></span></li> 
 								<li> <strong>Transmisi&oacute;n</strong> <span><?php echo $transmision_array[$current_car[0][field7]][field1]; ?></span></li> 
